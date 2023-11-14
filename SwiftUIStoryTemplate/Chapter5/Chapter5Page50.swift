@@ -50,6 +50,8 @@ struct Chapter5Continued: View {
             //        "Everwood lived on, basking in the light of hope, the enduring legacy of The Guardians of Light, and the newfound power of their unwavering friendship."
             
         }
+        
+        
     }
 }
 
