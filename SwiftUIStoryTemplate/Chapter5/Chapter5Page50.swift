@@ -13,10 +13,10 @@ struct Chapter5Continued: View {
             VStack{
                 
                 Text("Epilogue")
-                    .font(.largeTitle)
-                    .foregroundColor(.green)
+                     
+                    .foregroundColor(.red)
                     .padding()
-                
+                    .font(.custom("SnellRoundhand-Bold", size: 36)).padding()
                 
                 Text(
                     "Our friends have returned to town to face the evil darkness, Alex and the gang have gained the power to defeat the dark entity."
@@ -25,14 +25,23 @@ struct Chapter5Continued: View {
                 Text(
                     "As the battle with the Shadowlord concluded, and the darkness receded, the five friends stood amidst the now-peaceful forest, their hearts still racing from the intensity of the struggle. The weight of their heroic actions hung in the air, and a sense of accomplishment filled their hearts."
                 ) .padding()
-                
+                 
+                    
                 Text(
                     "'A sign of relief, our heroes' journey has concluded.'"
                 )
                 .font(.custom("SnellRoundhand-Bold", size: 36)).padding()
                 Text(
                     "Lily, the group's gifted healer, broke the silence with a gentle smile. 'We did it,' she said, her eyes filled with gratitude. 'We've not only saved Everwood, but the entire world.'"
-                ) .padding()
+                )
+                
+                 
+//                    .background {
+//                        Image("Sword")
+//                            .resizable().scaledToFill()
+//                    }
+                    
+                
                 
                 Text(
                     "Max, who possessed a deep connection with nature, nodded in agreement. 'And we did it together. The bond we've formed is unbreakable.'"

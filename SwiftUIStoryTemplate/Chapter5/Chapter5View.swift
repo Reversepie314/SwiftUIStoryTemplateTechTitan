@@ -6,6 +6,7 @@ struct Chapter5View: View {
              
             
             ZStack {
+                
                 Image("Group")
                 VStack {
                     Text("Chapter 5")
@@ -19,7 +20,12 @@ struct Chapter5View: View {
                         .padding()
                     
                      
-                    
+                    NavigationLink {
+                        Chapter5Continued()
+                    } label: {
+                        Text("Me")
+                    }
+                    .buttonStyle(.borderedProminent)
                     }
                     
                 }
