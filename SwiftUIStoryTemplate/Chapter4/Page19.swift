@@ -1,18 +1,18 @@
 //
-//  SwiftUIView.swift
+//  Page19.swift
 //  TechTitanSwiftUI
 //
-//  Created by Keon Johnson on 11/15/23.
+//  Created by Keon Johnson on 11/16/23.
 //
 
 import SwiftUI
 
-struct SwiftUIView: View {
+struct Page19: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
 #Preview {
-    SwiftUIView()
+    Page19()
 }

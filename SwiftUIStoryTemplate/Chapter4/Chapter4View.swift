@@ -3,6 +3,10 @@ import SwiftUI
 struct Chapter4View: View {
     var body: some View {
         NavigationStack {
+<<<<<<< Updated upstream
+=======
+            
+>>>>>>> Stashed changes
             ZStack {
                 Image("Creature")
                 
@@ -19,7 +23,6 @@ struct Chapter4View: View {
         }
     }
 }
-
 #Preview {
     Chapter4View()
 }
