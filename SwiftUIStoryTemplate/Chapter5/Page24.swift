@@ -10,7 +10,7 @@ import SwiftUI
 struct Page24: View {
     var body: some View {
         NavigationStack {
-            
+             
             VStack {
                 Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
                 Text("And so, in that quiet forest clearing, they formed a pact. 'I'm going to share my power,' Alex said, and one by one, they all echoed the sentiment, committing to stand together in the face of any challenge.") .padding()

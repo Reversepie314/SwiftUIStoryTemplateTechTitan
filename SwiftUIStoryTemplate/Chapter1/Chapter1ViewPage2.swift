@@ -16,7 +16,7 @@ struct Chapter1ViewPage2: View {
                     Image("Library")
                         .resizable().scaledToFit()
                         .ignoresSafeArea()
-                    Text("So if I were to add more text in this fie..................")
+                    Text("So if I were to add more text in this fie..................mdvavdvvadvvdvsdvavavavavdakjjfkdfdjsfdfdjdvavavadvdfa")
                         .padding()
                         .background{
                             Color(red: 0, green: 0, blue: 0.23)
