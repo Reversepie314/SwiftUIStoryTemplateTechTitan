@@ -17,7 +17,7 @@ struct page3: View {
                 Image(systemName: "play.circle.fill")
                     .resizable()
                     .frame(width: 50, height: 50)
-                    .foregroundStyle(.black)
+                    .foregroundStyle(.blue)
                 
             }
             }
