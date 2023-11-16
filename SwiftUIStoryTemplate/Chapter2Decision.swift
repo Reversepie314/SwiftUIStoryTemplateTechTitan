@@ -20,7 +20,10 @@ struct Chapter_2_Decision: View {
         NavigationView {
             VStack {
                 NavigationLink(destination: DoorAdventureBookView()) {
-                    Text("Begin Your Adventure")
+                    Text("Choose Your Path")
+                        .font(.custom("SnellRoundhand-Bold", size: 36)) // Replace with your preferred cursive font
+                        .foregroundColor(.red) // Adjust color as needed
+                        .padding()
                          
                 }
             }
@@ -69,8 +72,10 @@ struct IntroDoor: View {
                 // Replace 1 with the destination page index
                 self.onNavigate(1)
             }) {
-                Text("Continue")
-            }
+                Text("Fork In Road")
+                    .font(.custom("SnellRoundhand-Bold", size: 36)) // Replace with your preferred cursive font
+                    .foregroundColor(.red) // Adjust color as needed
+                    .padding()            }
         }
     }
 }
@@ -79,27 +84,66 @@ struct WhichDoor: View {
     var onNavigate: (Int) -> Void
     
     var body: some View {
-        VStack {
-            // Your existing WhichDoor content goes here
+        ZStack {
             
-            // Example choices with navigation
-            Button(action: {
-                // Replace 2 with the destination page index
-                self.onNavigate(2)
-            }) {
-                Text("Go through the large vine door")
-            }
-            
-            Button(action: {
-                // Replace 3 with the destination page index
-                self.onNavigate(3)
-            }) {
-                Text("Go through the small round door")
+            Image("ForkInRoad") // R
+                .resizable()
+                .scaledToFill()
+                .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity)
+                .edgesIgnoringSafeArea(.all)  .overlay(Color.black.opacity(0.45));            VStack {
+                Spacer()
+                
+                VStack {
+                    Spacer()
+                }
+                HStack {
+                    Spacer()
+                    
+                    HStack {
+                        Spacer()
+                        
+                        Button(action: {
+                            // Replace 2 with the destination page index
+                            self.onNavigate(2)
+                        }) {
+                            VStack {
+                                Text("Go to the left")
+                                    .foregroundColor(.white)
+                                    .font(.custom("SnellRoundhand-Bold", size: 36)) // Replace with your preferred cursive font
+                                    .foregroundColor(.red) // Adjust color as needed
+                                    .padding()                                    .padding(25)
+                                    .background(Color.black.opacity(0.5))
+                                Image(systemName:  "arrowshape.left.fill")
+                            }
+                            Spacer()
+                            
+                            Button(action: {
+                                // Replace 3 with the destination page index
+                                self.onNavigate(3)
+                            }) {
+                                VStack {
+                                    Text("Go to the right")
+                                        .foregroundColor(.white)
+                                        .font(.custom("SnellRoundhand-Bold", size: 36)) // Replace with your preferred cursive font
+                                        .foregroundColor(.red) // Adjust color as needed
+                                        .padding()                                        .padding(10)
+                                    
+                                        .background(Color.black.opacity(0.5))
+                                    Image(systemName: "arrowshape.right.fill")
+                                }
+                                .padding()
+                                
+                                Spacer()
+                                    
+                            }
+                            Spacer()
+                        }
+                    }
+                }
             }
         }
     }
 }
-
 struct LargeDoor: View {
     var onNavigate: (Int) -> Void
     

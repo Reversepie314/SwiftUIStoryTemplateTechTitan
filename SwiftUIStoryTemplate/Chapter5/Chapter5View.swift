@@ -2,10 +2,26 @@ import SwiftUI
 
 struct Chapter5View: View {
     var body: some View {
-        Text("Chapter 5")
+        NavigationStack {
+             
+            
+            ZStack {
+                Image("Group")
+                VStack {
+                    Text("Chapter 5")
+                        .font(.custom("CinzelDecorative-Bold", size: 48))
+                        .foregroundColor(.white)
+                        .padding()
+                    
+                    Text("'Ending'")
+                        .font(.custom("SnellRoundhand-Bold", size: 36)) // Replace with your preferred cursive font
+                        .foregroundColor(.red) // Adjust color as needed
+                        .padding()
+                }
+            }
+        }
     }
 }
-
 #Preview {
     Chapter5View()
 }

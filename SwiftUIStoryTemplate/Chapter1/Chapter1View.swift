@@ -23,7 +23,7 @@ struct Chapter1View: View {
                             Image(systemName: "play.circle.fill")
                                 .resizable()
                                 .frame(width: 50, height: 50)
-                                .foregroundStyle(.black)
+                                .foregroundStyle(.blue)
                             Text ("START")
                                 .foregroundStyle (.black)
                                 .font(.custom("ofont.ru_Impact",size: 24))

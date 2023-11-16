@@ -10,20 +10,42 @@ import SwiftUI
 struct Chapter1ViewPage2: View {
     var body: some View {
         NavigationStack {
-            ZStack {
+            VStack {
+              
+                ZStack {
+                    Image("Library")
+                        .resizable().scaledToFit()
+                        .ignoresSafeArea()
+                    Text("So if I were to add more text in this fie..................mdvavdvvadvvdvsdvavavavavdakjjfkdfdjsfdfdjdvavavadvdfa")
+                        .padding()
+                        .background{
+                            Color(red: 0, green: 0, blue: 0.23)
+                                .opacity(0.5)
+                        }
+                        .foregroundColor(.white)
+                    
+                    
+                    
+                    
+                    
+                    
+                                    }
+                     
+                    
+                    
                 
-                Image("Library")
-                    .resizable().scaledToFill()
-                    .ignoresSafeArea()
+                 
+            
                 
                 NavigationLink {
                     page3()
                 } label: {
-                    Image(systemName: "play.circle.fill")
-                        .resizable()
-                        .frame(width: 50, height: 50)
-                        .foregroundStyle(.black)
                     
+                        Image(systemName: "play.circle.fill")
+                            .resizable()
+                            .frame(width: 50, height: 50)
+                            .foregroundStyle(.blue)
+
                 }
             }
         }
