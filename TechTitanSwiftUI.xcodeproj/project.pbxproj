@@ -16,6 +16,8 @@
 		5DE6F6822AFAE3EA004ABB4F /* Chapter3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE6F6812AFAE3EA004ABB4F /* Chapter3View.swift */; };
 		5DE6F6842AFAE3EF004ABB4F /* Chapter4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE6F6832AFAE3EF004ABB4F /* Chapter4View.swift */; };
 		5DE6F6862AFAE3F3004ABB4F /* Chapter5View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE6F6852AFAE3F3004ABB4F /* Chapter5View.swift */; };
+		5E5CD67E2B065F19000B9EB4 /* Chapter2Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5CD67D2B065F19000B9EB4 /* Chapter2Intro.swift */; };
+		5EFB95E92B051FBC00958527 /* Chapter2pt1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFB95E82B051FBC00958527 /* Chapter2pt1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		5DE6F6812AFAE3EA004ABB4F /* Chapter3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter3View.swift; sourceTree = "<group>"; };
 		5DE6F6832AFAE3EF004ABB4F /* Chapter4View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter4View.swift; sourceTree = "<group>"; };
 		5DE6F6852AFAE3F3004ABB4F /* Chapter5View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter5View.swift; sourceTree = "<group>"; };
+		5E5CD67D2B065F19000B9EB4 /* Chapter2Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter2Intro.swift; sourceTree = "<group>"; };
+		5EFB95E82B051FBC00958527 /* Chapter2pt1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter2pt1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +49,7 @@
 		5DE6F6632AFADF05004ABB4F = {
 			isa = PBXGroup;
 			children = (
+				5E5CD67C2B0656AE000B9EB4 /* FFONTS */,
 				5DE6F66E2AFADF05004ABB4F /* SwiftUIStoryTemplate */,
 				5DE6F66D2AFADF05004ABB4F /* Products */,
 			);
@@ -94,6 +99,8 @@
 			isa = PBXGroup;
 			children = (
 				5DE6F67F2AFAE3E6004ABB4F /* Chapter2View.swift */,
+				5EFB95E82B051FBC00958527 /* Chapter2pt1.swift */,
+				5E5CD67D2B065F19000B9EB4 /* Chapter2Intro.swift */,
 			);
 			name = Chapter2;
 			sourceTree = "<group>";
@@ -120,6 +127,13 @@
 				5DE6F6852AFAE3F3004ABB4F /* Chapter5View.swift */,
 			);
 			path = Chapter5;
+			sourceTree = "<group>";
+		};
+		5E5CD67C2B0656AE000B9EB4 /* FFONTS */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FFONTS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,7 +171,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5DE6F6672AFADF05004ABB4F /* Build configuration list for PBXProject "SwiftUIStoryTemplate" */;
+			buildConfigurationList = 5DE6F6672AFADF05004ABB4F /* Build configuration list for PBXProject "TechTitanSwiftUI" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -194,9 +208,11 @@
 			files = (
 				5DE6F6822AFAE3EA004ABB4F /* Chapter3View.swift in Sources */,
 				5DE6F6842AFAE3EF004ABB4F /* Chapter4View.swift in Sources */,
+				5EFB95E92B051FBC00958527 /* Chapter2pt1.swift in Sources */,
 				5DE6F6722AFADF05004ABB4F /* ContentView.swift in Sources */,
 				5DE6F6802AFAE3E6004ABB4F /* Chapter2View.swift in Sources */,
 				5DE6F6862AFAE3F3004ABB4F /* Chapter5View.swift in Sources */,
+				5E5CD67E2B065F19000B9EB4 /* Chapter2Intro.swift in Sources */,
 				5DE6F67E2AFAE3DF004ABB4F /* Chapter1View.swift in Sources */,
 				5DE6F6702AFADF05004ABB4F /* SwiftUIStoryTemplateApp.swift in Sources */,
 			);
@@ -385,7 +401,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5DE6F6672AFADF05004ABB4F /* Build configuration list for PBXProject "SwiftUIStoryTemplate" */ = {
+		5DE6F6672AFADF05004ABB4F /* Build configuration list for PBXProject "TechTitanSwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5DE6F6782AFADF08004ABB4F /* Debug */,
