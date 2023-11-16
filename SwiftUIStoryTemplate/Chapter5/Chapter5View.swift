@@ -17,11 +17,16 @@ struct Chapter5View: View {
                         .font(.custom("SnellRoundhand-Bold", size: 36)) // Replace with your preferred cursive font
                         .foregroundColor(.red) // Adjust color as needed
                         .padding()
+                    
+                     
+                    
+                    }
+                    
                 }
             }
         }
     }
-}
+
 #Preview {
     Chapter5View()
 }
