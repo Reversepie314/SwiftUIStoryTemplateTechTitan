@@ -18,6 +18,8 @@
 		5DE6F6822AFAE3EA004ABB4F /* Chapter3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE6F6812AFAE3EA004ABB4F /* Chapter3View.swift */; };
 		5DE6F6842AFAE3EF004ABB4F /* Chapter4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE6F6832AFAE3EF004ABB4F /* Chapter4View.swift */; };
 		5DE6F6862AFAE3F3004ABB4F /* Chapter5View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE6F6852AFAE3F3004ABB4F /* Chapter5View.swift */; };
+		C42EB9C22B0659A500FF8F7F /* Chapter1ViewPage2 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42EB9C12B0659A500FF8F7F /* Chapter1ViewPage2 2.swift */; };
+		C42EB9C42B0666B400FF8F7F /* Chapter1TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42EB9C32B0666B400FF8F7F /* Chapter1TabView.swift */; };
 		C4ECCD1C2B051C8E00C4F5AD /* Chapter1ViewPage2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4ECCD1B2B051C8E00C4F5AD /* Chapter1ViewPage2.swift */; };
 		C4ECCD1E2B051EF800C4F5AD /* page3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4ECCD1D2B051EF800C4F5AD /* page3.swift */; };
 /* End PBXBuildFile section */
@@ -35,6 +37,8 @@
 		5DE6F6812AFAE3EA004ABB4F /* Chapter3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter3View.swift; sourceTree = "<group>"; };
 		5DE6F6832AFAE3EF004ABB4F /* Chapter4View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter4View.swift; sourceTree = "<group>"; };
 		5DE6F6852AFAE3F3004ABB4F /* Chapter5View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter5View.swift; sourceTree = "<group>"; };
+		C42EB9C12B0659A500FF8F7F /* Chapter1ViewPage2 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Chapter1ViewPage2 2.swift"; sourceTree = "<group>"; };
+		C42EB9C32B0666B400FF8F7F /* Chapter1TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter1TabView.swift; sourceTree = "<group>"; };
 		C4ECCD1B2B051C8E00C4F5AD /* Chapter1ViewPage2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter1ViewPage2.swift; sourceTree = "<group>"; };
 		C4ECCD1D2B051EF800C4F5AD /* page3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = page3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -93,8 +97,10 @@
 		5DE6F6872AFAE47A004ABB4F /* Chapter1 */ = {
 			isa = PBXGroup;
 			children = (
+				C42EB9C32B0666B400FF8F7F /* Chapter1TabView.swift */,
 				5DE6F67D2AFAE3DF004ABB4F /* Chapter1View.swift */,
 				C4ECCD1B2B051C8E00C4F5AD /* Chapter1ViewPage2.swift */,
+				C42EB9C12B0659A500FF8F7F /* Chapter1ViewPage2 2.swift */,
 				C4ECCD1D2B051EF800C4F5AD /* page3.swift */,
 			);
 			path = Chapter1;
@@ -208,6 +214,8 @@
 				C4ECCD1E2B051EF800C4F5AD /* page3.swift in Sources */,
 				34CD6A8E2B03B4EF00C643F4 /* Chapter 3 Continued.swift in Sources */,
 				5DE6F6842AFAE3EF004ABB4F /* Chapter4View.swift in Sources */,
+				C42EB9C22B0659A500FF8F7F /* Chapter1ViewPage2 2.swift in Sources */,
+				C42EB9C42B0666B400FF8F7F /* Chapter1TabView.swift in Sources */,
 				5DE6F6722AFADF05004ABB4F /* ContentView.swift in Sources */,
 				C4ECCD1C2B051C8E00C4F5AD /* Chapter1ViewPage2.swift in Sources */,
 				5DE6F6802AFAE3E6004ABB4F /* Chapter2View.swift in Sources */,

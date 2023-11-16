@@ -10,25 +10,31 @@ import SwiftUI
 struct Chapter1ViewPage2: View {
     var body: some View {
         NavigationStack {
-            ZStack {
+           
+                ZStack{
                 
                 Image("Library")
                     .resizable().scaledToFill()
                     .ignoresSafeArea()
+                    .opacity(0.5)
                 
+               
+                    
                 NavigationLink {
                     page3()
                 } label: {
+                    
                     Image(systemName: "play.circle.fill")
                         .resizable()
                         .frame(width: 50, height: 50)
-                        .foregroundStyle(.black)
-                    
+                        .foregroundStyle(.blue)
+                       
+                }
                 }
             }
         }
     }
-}
+
 
 #Preview {
     Chapter1ViewPage2()

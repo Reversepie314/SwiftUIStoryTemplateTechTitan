@@ -8,27 +8,29 @@ struct Chapter1View: View {
             ZStack {
                 
                 Image("Sword")
-                    .resizable().scaledToFill()
+                    .resizable()
+                .scaledToFill()
                     .ignoresSafeArea()
+                    
                 
                 VStack {
                     NavigationLink {
-                        Chapter1ViewPage2()
+                        ComposedGestureView()
                         
                         //        Button {
                         //                print ("Start")
-                        
+                            .padding(80)
                     } label: {
                         VStack {
                             Image(systemName: "play.circle.fill")
                                 .resizable()
                                 .frame(width: 50, height: 50)
-                                .foregroundStyle(.black)
+                                .foregroundStyle(.blue)
                             Text ("START")
-                                .foregroundStyle (.black)
+                                .foregroundStyle (.blue)
                                 .font(.custom("ofont.ru_Impact",size: 24))
                             //            }
-                        }
+                            .padding(60)                        }
                     }
                     
                 }
