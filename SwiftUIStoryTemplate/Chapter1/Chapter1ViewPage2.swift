@@ -19,26 +19,26 @@ struct Chapter1ViewPage2: View {
                     .ignoresSafeArea()
                     .opacity(0.5)
                 
-                VStack {
-                    
-                    ZStack {
-                        Image("Library")
-                            .resizable().scaledToFit()
-                            .ignoresSafeArea()
-                        Text("So if I were to add more text in this fie..................mdvavdvvadvvdvsdvavavavavdakjjfkdfdjsfdfdjdvavavadvdfa")
-                            .padding()
-                            .background{
-                                Color(red: 0, green: 0, blue: 0.23)
-                                    .opacity(0.5)
-                            }
-                            .foregroundColor(.white)
-                        
-                        
-                        
-                        
-                        
-                        
-                    }
+//                VStack {
+//                    
+//                    ZStack {
+//                        Image("Library")
+//                            .resizable().scaledToFit()
+//                            .ignoresSafeArea()
+//                        Text("So if I were to add more text in this fie..................mdvavdvvadvvdvsdvavavavavdakjjfkdfdjsfdfdjdvavavadvdfa")
+//                            .padding()
+//                            .background{
+//                                Color(red: 0, green: 0, blue: 0.23)
+//                                    .opacity(0.5)
+//                            }
+//                            .foregroundColor(.white)
+//                        
+//                        
+//                        
+//                        
+//                        
+//                        
+//                    }
                     
                     
                     
@@ -53,26 +53,27 @@ struct Chapter1ViewPage2: View {
                         page3()
                     } label: {
                         
-                        
-                        Image(systemName: "play.circle.fill")
-                            .resizable()
-                            .frame(width: 50, height: 50)
-                            .foregroundStyle(.blue)
-                        
+                        VStack {
+                            Image(systemName: "play.circle.fill")
+                                .resizable()
+                                .frame(width: 50, height: 50)
+                                .foregroundStyle(.blue)
+                            Text("Start The Journey")
+                        }
                     }
                     
-                    Image(systemName: "play.circle.fill")
-                        .resizable()
-                        .frame(width: 50, height: 50)
-                        .foregroundStyle(.blue)
+//                    Image(systemName: "play.circle.fill")
+//                        .resizable()
+//                        .frame(width: 50, height: 50)
+//                        .foregroundStyle(.blue)
                     
                     
                 }
             }
         }
     }
-    
-}
+//}
+
 #Preview {
     Chapter1ViewPage2()
 }
