@@ -3,7 +3,7 @@ import SwiftUI
 struct Chapter1View: View {
     var body: some View {
         NavigationStack {
-            
+//            
             
             ZStack {
                 
@@ -15,10 +15,9 @@ struct Chapter1View: View {
                 
                 VStack {
                     NavigationLink {
-                        ComposedGestureView()
+                        paragraphone()
                         
-                        //        Button {
-                        //                print ("Start")
+                       
                             .padding(80)
                     } label: {
                         VStack {

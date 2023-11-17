@@ -11,8 +11,10 @@ struct Chapter1TabView: View {
     var body: some View {
         TabView {
             Chapter1View()
+            paragraphone ()
             ComposedGestureView()
             page3()
+            
         }
         .tabViewStyle(.page)
     }
