@@ -208,6 +208,9 @@ struct Chapter5Continued: View {
                         : "A ghostly figure appeared from the horizon staring at our heroes from afar"
                 )
                 .padding()
+                
+                
+                
                 Text(
                     isUkrainian
                         ? "Стражі світла побачили привидну фігуру здалеку і дивилися, як вона опускається в тоненький повітря."
@@ -225,10 +228,13 @@ struct Chapter5Continued: View {
                 Text(
                     isUkrainian
                         ? "Евервуд продовжував існувати, насолоджуючись світлом надії, вічною спадщиною Стражів світла і новоотриманою силою їх невразливого дружби."
-                        : "Everwood lived on, basking in the light of hope, the enduring legacy of The Guardians of Light, and the newfound power of their unwavering friendship."
-                )
+                    : "Everwood lived on, basking in the light of hope, the enduring legacy of The Guardians of Light, and the newfound power of their unwavering friendship."
+                                   )
                 .padding()
-                // ... (rest of your existing code)
+                Image("dtown")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(height: 200) 
 
             }
             .padding()
