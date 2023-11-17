@@ -18,7 +18,7 @@ struct page3: View {
                     .scaleEffect(value)
                     .opacity(value == 1 ? 1 : 0)
                 
-                Text (" Guys  defeat the darkness")
+                Text (" defeat the darkness")
                     .font(.callout)
                     .scaleEffect(3 - value)
                     .opacity(value == 1 ? 1 : 0)
