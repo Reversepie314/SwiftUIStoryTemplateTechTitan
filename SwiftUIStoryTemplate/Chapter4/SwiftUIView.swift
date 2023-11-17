@@ -20,6 +20,7 @@ struct AdventureView: View {
     @State private var wearingShields = true
     
     var body: some View {
+
         VStack {
             Text("A Dire Warning")
                 .font(.custom("SnellRoundhand-Bold", size: 36))                .padding()
