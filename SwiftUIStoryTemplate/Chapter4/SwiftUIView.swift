@@ -29,7 +29,10 @@ struct AdventureView: View {
                 Text(adventureText)
                     .padding()
                     .fixedSize(horizontal: false, vertical: true)
-                
+                Image("Raven")
+                                    .resizable()
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(height: 200)
             }
             
             // Add more SwiftUI components to represent your adventure here
