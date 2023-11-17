@@ -3,15 +3,15 @@
 //  TechTitanSwiftUI
 //
 //  Created by Maryna Sunko on 11/15/23.
-//
+
 
 import SwiftUI
 
 struct page3: View {
     var body: some View {
         NavigationStack {
-            Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-            NavigationLink {
+            Text("Introduction")
+                .font(.custom("SnellRoundhand-Bold", size: 36));            NavigationLink {
                 Chapter1View ()
             } label: {
                 Image(systemName: "play.circle.fill")

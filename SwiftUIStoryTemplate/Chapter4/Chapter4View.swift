@@ -8,8 +8,9 @@ struct Chapter4View: View {
 //            
 //>>>>>>> Stashed changes
             ZStack {
-                Image("Creature")
-                
+                 
+                           Image("DarknessC")
+                     
                 VStack {
                     Text("Chapter 4")
                         .font(.custom("CinzelDecorative-Bold", size: 48))
