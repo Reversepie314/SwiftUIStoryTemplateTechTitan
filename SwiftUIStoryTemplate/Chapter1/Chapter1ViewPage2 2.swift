@@ -46,6 +46,7 @@ struct ComposedGestureView: View {
             VStack {
             Image ("Library")
                     .resizable()
+                    .scaledToFill()
                     .opacity(0.5)
                 .overlay {
                     ScrollView{
