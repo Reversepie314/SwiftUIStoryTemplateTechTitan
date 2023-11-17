@@ -2,9 +2,41 @@ import SwiftUI
 
 struct Chapter1View: View {
     var body: some View {
-        Text("Chapter 1")
-        
-        Image("")
+        NavigationStack {
+            
+            
+            ZStack {
+                
+                Image("Sword")
+                    .resizable()
+                .scaledToFill()
+                    .ignoresSafeArea()
+                    
+                
+                VStack {
+                    NavigationLink {
+                        ComposedGestureView()
+                        
+                        //        Button {
+                        //                print ("Start")
+                            .padding(80)
+                    } label: {
+                        VStack {
+                            Image(systemName: "play.circle.fill")
+                                .resizable()
+                                .frame(width: 50, height: 50)
+                                .foregroundStyle(.blue)
+                            Text ("START")
+                                .foregroundStyle (.blue)
+                                .font(.custom("ofont.ru_Impact",size: 24))
+                            //            }
+                            .padding(60)                        }
+                    }
+                    
+                }
+                
+            }
+        }
     }
 }
 
