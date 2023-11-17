@@ -1,8 +1,8 @@
 //
-//  Chapter2Decision.swift
+//  Chapter4ForkInRoad.swift
 //  TechTitanSwiftUI
 //
-//  Created by Keon Johnson on 11/14/23.
+//  Created by Keon Johnson on 11/17/23.
 //
 
 import SwiftUI
@@ -15,7 +15,7 @@ extension View {
     }
 }
 
-struct Chapter_2_Decision: View {
+struct Chapter4ForkInRoad: View {
     var body: some View {
         NavigationView {
             VStack {
@@ -150,15 +150,18 @@ struct LargeDoor: View {
     var body: some View {
         VStack {
             // Your content for LargeDoor goes here
-            Text("You open the large door and find a magical forest filled with flying creatures, glowing plants, and singing trees. You have entered a mystical realm!")
+            Text("Great, you've successfully made the right decision and can now move on...")
             
             // Example choice to go back to the beginning
             Button(action: {
                 // Replace 0 with the destination page index
                 self.onNavigate(0)
             }) {
-                Text("Go back to the beginning of the story")
-            }
+                NavigationLink(destination: Chapter4View()) {                Text("You may now move on with the story")
+                
+                }
+                }
+            
         }
     }
 }
@@ -169,14 +172,15 @@ struct SmallDoor: View {
     var body: some View {
         VStack {
             // Your content for SmallDoor goes here
-            Text("You open the small door and discover a wonderland with a tea party, various cakes, and talking animals. Your favorite people are waiting for you. You have entered a whimsical world!")
+            Text("You stumbled into a time loop which caused you to repeat steps in the story.")
             
             // Example choice to go back to the beginning
             Button(action: {
                 // Replace 0 with the destination page index
                 self.onNavigate(0)
             }) {
-                Text("Go back to the beginning of the story")
+                NavigationLink(destination: Chapter2pt1()) {                Text("You will now see Deja Vu in chapter 2.")
+                }
             }
         }
     }
@@ -186,6 +190,6 @@ struct SmallDoor: View {
 
 struct DoorAdventureView_Previews: PreviewProvider {
     static var previews: some View {
-        Chapter_2_Decision()
+        Chapter4ForkInRoad()
     }
 }

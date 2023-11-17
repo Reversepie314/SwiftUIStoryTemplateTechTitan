@@ -14,7 +14,7 @@ struct Chapter4View: View {
                         .foregroundColor(.white)
                         .padding()
                     
-                    Text("Grusome Battle")
+                    Text("Final Battle")
                         .font(.custom("SnellRoundhand-Bold", size: 36)) // Replace with your preferred cursive font
                         .foregroundColor(.red) // Adjust color as needed
                         .padding()

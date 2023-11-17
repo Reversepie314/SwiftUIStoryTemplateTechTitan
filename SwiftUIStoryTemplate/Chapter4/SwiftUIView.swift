@@ -20,32 +20,35 @@ struct AdventureView: View {
     @State private var wearingShields = true
     
     var body: some View {
-
-        VStack {
-            Text("A Dire Warning")
-                .font(.custom("SnellRoundhand-Bold", size: 36))                .padding()
-        
-            
-            ScrollView {
-                Text(adventureText)
+        NavigationView {
+            VStack {
+                Text("A Dire Warning")
+                    .font(.custom("SnellRoundhand-Bold", size: 36))                .padding()
+                
+                
+                ScrollView {
+                    Text(adventureText)
+                        .padding()
+                        .fixedSize(horizontal: false, vertical: true)
+                    Image("Raven")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(height: 200)
+                }
+                
+                // Add more SwiftUI components to represent your adventure here
+                
+                // For example, you can use Buttons and other SwiftUI components to interact with the adventure.
+                
+                // Call your command-line logic function within the SwiftUI view
+                Button("Click to Unveil") {
+                    chapterFour()
+                }
+                .padding()
+                NavigationLink("Next Page", destination: FinalBattle())
                     .padding()
-                    .fixedSize(horizontal: false, vertical: true)
-                Image("Raven")
-                                    .resizable()
-                                    .aspectRatio(contentMode: .fit)
-                                    .frame(height: 200)
             }
-            
-            // Add more SwiftUI components to represent your adventure here
-            
-            // For example, you can use Buttons and other SwiftUI components to interact with the adventure.
-            
-            // Call your command-line logic function within the SwiftUI view
-            Button("Click to Unveil") {
-                chapterFour()
-            }
-            .padding()
-        }
+                 }
     }
     
     func chapterFour() {

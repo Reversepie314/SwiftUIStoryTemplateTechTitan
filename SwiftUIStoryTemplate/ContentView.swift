@@ -17,7 +17,7 @@ struct ContentView: View {
                 .tabItem {
                     Label("Chapter 3", systemImage: "3.circle")
                 }
-            Chapter4View()
+            Chapter4ForkInRoad()
                 .tabItem {
                     Label("Chapter 4", systemImage: "4.circle")
                 }
