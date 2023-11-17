@@ -113,6 +113,7 @@
 				C4ECCD1B2B051C8E00C4F5AD /* Chapter1ViewPage2.swift */,
 				C42EB9C12B0659A500FF8F7F /* Chapter1ViewPage2 2.swift */,
 				C4ECCD1D2B051EF800C4F5AD /* page3.swift */,
+				5DE6F67F2AFAE3E6004ABB4F /* Chapter2View.swift */,
 			);
 			path = Chapter1;
 			sourceTree = "<group>";
@@ -120,7 +121,6 @@
 		5DE6F6882AFAE482004ABB4F /* Chapter2 */ = {
 			isa = PBXGroup;
 			children = (
-				5DE6F67F2AFAE3E6004ABB4F /* Chapter2View.swift */,
 				5EFB95E82B051FBC00958527 /* Chapter2pt1.swift */,
 				5E5CD67D2B065F19000B9EB4 /* Chapter2Intro.swift */,
 				34CD6A8F2B03D51600C643F4 /* Chapter2Decision.swift */,
