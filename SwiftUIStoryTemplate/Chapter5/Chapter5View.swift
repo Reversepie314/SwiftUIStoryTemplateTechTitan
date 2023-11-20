@@ -23,7 +23,8 @@ struct Chapter5View: View {
                     NavigationLink {
                         Chapter5Continued()
                     } label: {
-                        Text("Me")
+                        Text("Tap to Read")
+                             
                     }
                     .buttonStyle(.borderedProminent)
                     }
